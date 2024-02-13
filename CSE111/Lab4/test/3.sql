@@ -7,3 +7,4 @@ WHERE o_orderdate BETWEEN '1996-01-01' AND '1996-12-31' AND
             c_nationkey = n_nationkey AND 
                 n_nationkey = 1
                     GROUP BY c_name;
+    
